@@ -1,1 +1,1 @@
-include ':sample', ':qadeputy-lib'
+include ':qadeputy-sample', ':qadeputy-lib'
