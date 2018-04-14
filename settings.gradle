@@ -1,1 +1,4 @@
-include ':qadeputy-sample', ':qadeputy-lib'
+rootProject.name = 'qadeputy-root'
+
+include ':qadeputy'
+include ':qadeputy-sample'

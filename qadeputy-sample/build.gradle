@@ -22,7 +22,7 @@ android {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     implementation 'com.android.support:appcompat-v7:26.1.0'
-    implementation project(':qadeputy-lib')
+    implementation project(':qadeputy')
     implementation 'com.jakewharton.timber:timber:4.7.0'
     implementation "io.reactivex.rxjava2:rxjava:2.1.12"
     implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
