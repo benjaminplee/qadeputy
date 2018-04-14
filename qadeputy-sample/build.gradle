@@ -3,11 +3,13 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion versions.compileSdk
+
     defaultConfig {
+        minSdkVersion versions.minSdk
+        targetSdkVersion versions.targetSdk
+
         applicationId "yardspoon.qadeputy.sample"
-        minSdkVersion 21
-        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
     }
@@ -20,10 +22,12 @@ android {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
-    implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation project(':qadeputy')
-    implementation 'com.jakewharton.timber:timber:4.7.0'
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:${versions.kotlin}"
+    implementation "com.android.support:appcompat-v7:${versions.appcompat}"
+    implementation "com.jakewharton.timber:timber:${versions.timber}"
+
     implementation "io.reactivex.rxjava2:rxjava:2.1.12"
     implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
 }
