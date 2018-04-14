@@ -1,14 +1,13 @@
 package yardspoon.qadeputy.sample
 
-import android.support.v7.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 import kotlinx.android.synthetic.main.activity_main.*
 import timber.log.Timber
-import yardspoon.qadeputy.R
-import yardspoon.qadeputy.logcat.logLogs
 import java.util.concurrent.TimeUnit
 
 class MainActivity : AppCompatActivity() {
@@ -19,8 +18,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        button.setOnClickListener {
-            logLogs()
+        mainText.setOnClickListener {
+            startActivity(Intent(this, yardspoon.qadeputy.launcher.LauncherActivity::class.java))
         }
     }
 

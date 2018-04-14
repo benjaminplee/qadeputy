@@ -1,2 +1,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.qadeputy" />
+    package="yardspoon.qadeputy">
+
+    <application>
+        <activity
+            android:name=".launcher.LauncherActivity"
+            android:label="QA Deputy"
+            android:taskAffinity="yardspoon.qadeputy.${applicationId}">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+    </application>
+</manifest>
