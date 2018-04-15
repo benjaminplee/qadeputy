@@ -12,7 +12,7 @@ class LauncherActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.qadeputy_activity_launcher)
 
-        button.setOnClickListener { logLogs() }
+        QADeputy_shareLogsIcon.setOnClickListener { logLogs() }
     }
 
 }

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="QADeputy.colorPrimary">#263238</color>
+    <color name="QADeputy.colorPrimaryDark">#000a12</color>
+    <color name="QADeputy.colorAccent">#e1f5fe</color>
+    <color name="QADeputy.logs.colorAccent">#b2ff59</color>
+</resources>

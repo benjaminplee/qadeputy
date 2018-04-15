@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="QADeputy.AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/QADeputy.colorPrimary</item>
+        <item name="colorPrimaryDark">@color/QADeputy.colorPrimaryDark</item>
+        <item name="colorAccent">@color/QADeputy.colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

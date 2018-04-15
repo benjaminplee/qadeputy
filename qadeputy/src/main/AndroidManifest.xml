@@ -2,15 +2,20 @@
     package="yardspoon.qadeputy">
 
     <application>
+
         <activity
             android:name=".launcher.LauncherActivity"
             android:label="@string/qadeputy_launcher_name"
-            android:taskAffinity="yardspoon.qadeputy.${applicationId}">
+            android:taskAffinity="yardspoon.qadeputy.${applicationId}"
+            android:theme="@style/QADeputy.AppTheme">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
     </application>
 
 </manifest>
