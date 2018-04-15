@@ -22,25 +22,29 @@
         android:layout_centerInParent="true"
         android:columnCount="2">
 
-        <View
+        <ImageView
             android:id="@+id/QADeputy_infoIcon"
             style="@style/QADeputyIcon"
-            android:background="@drawable/ic_qadeputy_info" />
+            android:contentDescription="Launch App Info"
+            android:src="@drawable/ic_qadeputy_info" />
 
-        <View
+        <ImageView
             android:id="@+id/QADeputy_crashIcon"
             style="@style/QADeputyIcon"
-            android:background="@drawable/ic_qadeputy_crash" />
+            android:contentDescription="Launch Test Crash"
+            android:src="@drawable/ic_qadeputy_crash" />
 
-        <View
+        <ImageView
             android:id="@+id/QADeputy_logsIcon"
             style="@style/QADeputyIcon"
-            android:background="@drawable/ic_qadeputy_logs" />
+            android:contentDescription="Launch Log Share"
+            android:src="@drawable/ic_qadeputy_logs" />
 
-        <View
+        <ImageView
             android:id="@+id/QADeputy_captureIcon"
             style="@style/QADeputyIcon"
-            android:background="@drawable/ic_qadeputy_capture" />
+            android:contentDescription="Launch Screen Capture"
+            android:src="@drawable/ic_qadeputy_capture" />
 
     </GridLayout>
 
