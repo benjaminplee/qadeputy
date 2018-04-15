@@ -17,5 +17,6 @@ android {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:${versions.kotlin}"
     implementation "com.android.support:appcompat-v7:${versions.appcompat}"
+    implementation "com.android.support:support-compat:${versions.appcompat}"
     implementation "com.jakewharton.timber:timber:${versions.timber}"
 }

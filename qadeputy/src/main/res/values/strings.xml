@@ -1,3 +1,7 @@
 <resources>
     <string name="qadeputy_launcher_name">QA Deputy</string>
+
+    <string name="qadeputy_notification_channel_id">QADeputy</string>
+    <string name="qadeputy_notification_channel_name">QA Deputy</string>
+    <string name="qadeputy_notification_channel_description">Notifications useful while testing.</string>
 </resources>
