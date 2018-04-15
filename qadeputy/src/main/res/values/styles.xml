@@ -1,11 +1,17 @@
 <resources>
 
-    <style name="QADeputy.AppTheme" parent="Theme.AppCompat.NoActionBar">
-        <item name="colorPrimary">@color/QADeputy.colorPrimary</item>
-        <item name="colorPrimaryDark">@color/QADeputy.colorPrimaryDark</item>
-        <item name="colorAccent">@color/QADeputy.colorAccent</item>
+    <style name="QADeputyAppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/QADeputyColorPrimary</item>
+        <item name="colorPrimaryDark">@color/QADeputyColorPrimaryDark</item>
+        <item name="colorAccent">@color/QADeputyColorAccent</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="QADeputyIcon">
+        <item name="android:layout_width">@dimen/QADeputyIcon</item>
+        <item name="android:layout_height">@dimen/QADeputyIcon</item>
+        <item name="android:layout_margin">8dp</item>
     </style>
 
 </resources>

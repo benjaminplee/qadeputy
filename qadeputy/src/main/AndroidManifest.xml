@@ -7,7 +7,7 @@
             android:name=".launcher.LauncherActivity"
             android:label="@string/qadeputy_launcher_name"
             android:taskAffinity="yardspoon.qadeputy.${applicationId}"
-            android:theme="@style/QADeputy.AppTheme">
+            android:theme="@style/QADeputyAppTheme">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

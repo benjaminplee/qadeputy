@@ -3,14 +3,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/QADeputy.colorPrimaryDark"
+    android:background="@color/QADeputyColorPrimaryDark"
+    android:padding="16dp"
     tools:context=".launcher.LauncherActivity">
 
-    <View
-        android:id="@+id/QADeputy_shareLogsIcon"
-        android:layout_width="@dimen/QADeputy.icon"
-        android:layout_height="@dimen/QADeputy.icon"
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="@string/qadeputy_launcher_name"
+        android:textColor="@color/QADeputyColorMuted"
+        android:textSize="24sp" />
+
+    <GridLayout
+        android:id="@+id/QADeputy_iconHolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:background="@drawable/ic_logs_receipt" />
+        android:columnCount="2">
+
+        <View
+            android:id="@+id/QADeputy_infoIcon"
+            style="@style/QADeputyIcon"
+            android:background="@drawable/ic_qadeputy_info" />
+
+        <View
+            android:id="@+id/QADeputy_crashIcon"
+            style="@style/QADeputyIcon"
+            android:background="@drawable/ic_qadeputy_crash" />
+
+        <View
+            android:id="@+id/QADeputy_logsIcon"
+            style="@style/QADeputyIcon"
+            android:background="@drawable/ic_qadeputy_logs" />
+
+        <View
+            android:id="@+id/QADeputy_captureIcon"
+            style="@style/QADeputyIcon"
+            android:background="@drawable/ic_qadeputy_capture" />
+
+    </GridLayout>
+
 
 </RelativeLayout>
